@@ -50,7 +50,7 @@ async def weather(update: Update, context: ContextTypes.DEFAULT_TYPE):
         text = (
             f"📍 {city_name}\n"
             f"🕒 Зараз ({now_local:%H:%M}):\n"
-            f"🌡 {temp_now}°C (відчувається як {feels}°C)\n"
+            f"🌡 Температура: {temp_now}°C (відчувається як {feels}°C)\n"
             f"💧 Вологість: {humidity}%\n"
             f"🌬 Вітер: {wind_speed} м/с, {wind_dir}\n"
             f"☁️ {desc_now}\n\n"
